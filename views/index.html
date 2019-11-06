@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Welcome to Express!></title>
+</head>
+
+<body>
+  <h1>{{ title }}</h1>
+  <h3>{{ text }}</h3>
+  <div class="container">
+    <p> This is a paragraph of text. Yay! </p>
+    {{#packages}}
+
+    <p>{{name}}</p>
+    <p>{{category}}</p>
+    <img src ="{{img}}" alt=""/>
+    <hr>
+
+    {{/packages}}
+  </div>
+</body>
+</html>
